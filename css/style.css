@@ -1,0 +1,54 @@
+@import url(reset.css);
+body{
+	background:url(../images/fon.jpg) no-repeat;
+}
+#wrapper{
+	width:1000px;
+	margin: 0 auto;
+}
+#header{
+	overflow:hidden;
+}
+#logo{
+width:150;
+height:150;
+float:left;
+margin-left:-2px;
+}
+#menu{
+	width:960px;
+	height:60px;
+	border-radius:30px;
+	background: #CAC8CC;
+
+}
+#menu ul{
+padding-left:60px;
+padding-top:20px;	
+overflow:hidden;
+margin-top:10px;
+}
+
+#menu ul li{
+	overflow:hidden;
+	margin-right:70px;
+	color:#E5363F;
+	float:left;
+	font:bold 20px Arial, Verdana, sans-serif;
+	}
+#menu ul li a{
+color:#E5363F;
+text-decoration:none;
+}
+#menu ul li span{
+	font:bold 20px Arial;
+	color:#60CC80;
+	margin-left:13px;
+}
+#menu.current, # ul li a:hover{
+	text-decoration:underline;
+	}
+#menu.phone{
+	float:right;
+	margin-right:0px;
+}
